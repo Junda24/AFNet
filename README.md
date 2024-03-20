@@ -7,7 +7,7 @@
 
 This work presents AFNet, a new multi-view and singleview depth fusion network AFNet for alleviating the defects of the existing multi-view methods, which will fail under noisy poses in real-world autonomous driving scenarios.
 
-![teaser](asset1s/pointcloud2.png)
+![teaser](assets/pointcloud2.png)
 
 
 ## ✏️ Changelog
@@ -24,6 +24,9 @@ conda activate AFNet
 
 pip install -r requirements.txt
 ```
+
+## 🎬 Demo
+![teaser](assets/visual_compare.png)
 
 
 ## ⏳ Training & Testing
