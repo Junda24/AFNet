@@ -33,7 +33,8 @@ pip install -r requirements.txt
 We use 4 Nvidia 3090 GPU for training. You may need to modify 'CUDA_VISIBLE_DEVICES' and batch size to accommodate your GPU resources.
 
 #### Training
-First download and extract DDAD and KITTI data and split. Then run the following command to train our model. 
+First download and extract DDAD and KITTI data and split. 
+Then run the following command to train our model. 
 ```
 bash scripts/train.sh
 ```
