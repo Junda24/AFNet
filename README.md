@@ -11,12 +11,12 @@ This work presents AFNet, a new multi-view and singleview depth fusion network A
 
 
 ## ✏️ Changelog
-### March 20 2024
-* Initial release. 
+### Mar. 20 2024
+* Initial release. Due to the confidentiality agreement, the accuracy of the current reproduced model is very slightly different from that in the paper. We release an initial version first, and the final version will be released soon.
 
 ## ⚙️ Installation
 
-The code is tested with CUDA11.7. Please use following commands to install dependencies: 
+The code is tested with CUDA11.7. Please use the following commands to install dependencies: 
 
 ```
 conda create --name AFNet python=3.7
@@ -31,10 +31,10 @@ pip install -r requirements.txt
 
 ## ⏳ Training & Testing
 
-We use 4 Nvidia 3090 GPU for training. You may need to modify 'CUDA_VISIBLE_DEVICES' and batch size to accomodate your GPU resources.
+We use 4 Nvidia 3090 GPU for training. You may need to modify 'CUDA_VISIBLE_DEVICES' and batch size to accommodate your GPU resources.
 
 #### Training
-First download and extract DDAD and KITTI data and split. Then run following command to train our model. 
+First download and extract DDAD and KITTI data and split. Then run the following command to train our model. 
 ```
 bash scripts/train.sh
 ```
