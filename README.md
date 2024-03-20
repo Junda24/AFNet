@@ -12,7 +12,7 @@ This work presents AFNet, a new multi-view and singleview depth fusion network A
 
 ## ✏️ Changelog
 ### Mar. 20 2024
-* Initial release. Due to the confidentiality agreement, the accuracy of the current reproduced model is very slightly different from that in the paper. We release an initial version first, and the final version will be released soon.
+* Initial release. Due to the confidentiality agreement, the accuracy of the current reproduced model on KITTI is very slightly different from that in the paper. We release an initial version first, and the final version will be released soon.
 
 ## ⚙️ Installation
 
