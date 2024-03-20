@@ -47,8 +47,31 @@ Then run:
 bash scripts/test.sh
 ```
 
+You should get something like these:
+
+DDAD:
+
+| abs_rel | sq_rel | rmse  |
+|---------|--------|-------|
+| 0.088   | 1.41  | 7.23 |
+
 
 #### Acknowledgement
 Thanks to Zhenpei Yang for opening source of his excellent works [MVS2D](https://github.com/zhenpeiyang/MVS2D?tab=readme-ov-file#nov-27-2021)
+
+## Citation
+
+If you find this project useful, please consider citing:
+
+```bibtex
+@misc{cheng2024adaptive,
+      title={Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving}, 
+      author={JunDa Cheng and Wei Yin and Kaixuan Wang and Xiaozhi Chen and Shijie Wang and Xin Yang},
+      year={2024},
+      eprint={2403.07535},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
