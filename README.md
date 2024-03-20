@@ -42,18 +42,28 @@ bash scripts/train.sh
 #### Testing 
 First download and extract data, split and pretrained models.
 
-Then run:
+### DDAD:
+run:
 ```
-bash scripts/test.sh
+python eval_ddad.py
 ```
 
 You should get something like these:
 
-DDAD:
+| abs_rel | sq_rel | log10 | rmse  | rmse_log | a1    | a2    | a3    | abs_diff |
+|---------|--------|-------|-------|----------|-------|-------|-------|----------|
+| 0.082   | 0.165  | 0.047 | 0.440 | 0.147    | 0.921 | 0.939 | 0.948 | 0.325    |
 
-| abs_rel | sq_rel | rmse  |
-|---------|--------|-------|
-| 0.088   | 1.41  | 7.23 |
+### KITTI:
+run:
+```
+python eval_kitti.py
+```
+You should get something like these:
+
+| abs_rel | sq_rel | log10 | rmse  | rmse_log | a1    | a2    | a3    | abs_diff |
+|---------|--------|-------|-------|----------|-------|-------|-------|----------|
+| 0.082   | 0.165  | 0.047 | 0.440 | 0.147    | 0.921 | 0.939 | 0.948 | 0.325    |
 
 
 #### Acknowledgement
