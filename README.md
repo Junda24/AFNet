@@ -44,25 +44,25 @@ First download and extract data, split and pretrained models.
 ### DDAD:
 run:
 ```
-python eval_ddad.py
+python eval_ddad.py --cfg "./configs/DDAD.conf"
 ```
 
 You should get something like these:
 
 | abs_rel | sq_rel | log10 | rmse  | rmse_log | a1    | a2    | a3    | abs_diff |
 |---------|--------|-------|-------|----------|-------|-------|-------|----------|
-| 0.082   | 0.165  | 0.047 | 0.440 | 0.147    | 0.921 | 0.939 | 0.948 | 0.325    |
+| 0.088   | 0.979  | 0.035 |  x | x    | 0.917 | 0.972 | 0.987 | 2.042    |
 
 ### KITTI:
 run:
 ```
-python eval_kitti.py
+python eval_kitti.py --cfg "./configs/kitti.conf"
 ```
 You should get something like these:
 
 | abs_rel | sq_rel | log10 | rmse  | rmse_log | a1    | a2    | a3    | abs_diff |
 |---------|--------|-------|-------|----------|-------|-------|-------|----------|
-| 0.082   | 0.165  | 0.047 | 0.440 | 0.147    | 0.921 | 0.939 | 0.948 | 0.325    |
+| 0.044   | 0.132  | 0.019 | 1.712 | 0.069    | 0.980 | 0.997 | 0.999 | 0.804    |
 
 
 #### Acknowledgement
