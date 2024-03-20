@@ -33,7 +33,11 @@ pip install -r requirements.txt
 We use 4 Nvidia 3090 GPU for training. You may need to modify 'CUDA_VISIBLE_DEVICES' and batch size to accommodate your GPU resources.
 
 #### Training
-First download and extract DDAD and KITTI data and split. 
+First download and extract DDAD and KITTI data and split. You should download and process DDAD dataset follow [DDAD🔗](https://github.com/TRI-ML/DDAD).
+#### Download
+[__split__ 🔗](https://1drv.ms/u/s!AtFfCZ2Ckf3DghYrBvQ-DWCQR1Nd?e=Q6qz8d) （You need to move this json file in split to the data_split path）   
+[ models  🔗](https://1drv.ms/u/s!AtFfCZ2Ckf3DghVXXZY611mqxa8B?e=nZ7taR)  （models for testing）
+
 Then run the following command to train our model. 
 ```
 bash scripts/train.sh
