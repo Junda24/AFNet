@@ -14,6 +14,9 @@ This work presents AFNet, a new multi-view and singleview depth fusion network A
 ### Mar. 20 2024
 * Initial release. Due to the confidentiality agreement, the accuracy of the current reproduced model on KITTI is very slightly different from that in the paper. We release an initial version first, and the final version will be released soon.
 
+* In addition, the models trained under noise pose will soon be released.
+
+
 ## ⚙️ Installation
 
 The code is tested with CUDA11.7. Please use the following commands to install dependencies: 
