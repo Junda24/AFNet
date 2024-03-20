@@ -7,4 +7,5 @@
 
 This work presents AFNet, a new multi-view and singleview depth fusion network AFNet for alleviating the defects of the existing multi-view methods, which will fail under noisy poses in real-world autonomous driving scenarios.
 
-<img src="assets/pointcloud2.pdf" alt="drawing" width="800"/>
+![teaser](assets/pointcloud2.pdf)
+
