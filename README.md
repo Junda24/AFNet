@@ -21,7 +21,6 @@ The code is tested with CUDA11.7. Please use the following commands to install d
 ```
 conda create --name AFNet python=3.7
 conda activate AFNet
-
 pip install -r requirements.txt
 ```
 
